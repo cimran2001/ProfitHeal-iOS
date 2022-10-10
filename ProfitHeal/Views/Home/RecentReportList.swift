@@ -8,18 +8,20 @@
 import SwiftUI
 
 struct RecentReportList: View {
+    private var listHeader: Text {
+        Text("Recent reports")
+            .font(.title)
+            .bold()
+    }
+    
     var body: some View {
-        NavigationView {
-            List {
-                HStack {
-                    Spacer()
-                    RecentReportRow()
-                    Spacer()
-                }
+        VStack(spacing: 0) {
+            Section(header: HStack {
+                listHeader
+                Spacer()
+            }.padding(.leading).padding(.top)) {
+                RecentReportRow()
             }
-            .navigationTitle("Recent reports")
-            
-            Spacer()
         }
     }
 }

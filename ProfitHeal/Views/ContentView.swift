@@ -18,9 +18,9 @@ struct ContentView: View {
                     Label("Home", systemImage: "house")
                 }
             
-            SymptomSelection()
+            RecentReportList()
                 .tabItem {
-                    Label("Reports", systemImage: "list.bullet.rectangle.portrait")
+                    Label("Reports history", systemImage: "list.bullet.rectangle.portrait")
                 }
                 
             

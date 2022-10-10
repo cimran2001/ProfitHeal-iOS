@@ -8,24 +8,32 @@
 import SwiftUI
 
 struct HomeStatus: View {
-    private func getDate() -> String {
+    private func getDate() -> Text {
         let calendar = Calendar.current
         let date = Date()
         
         let day = calendar.component(.day, from: date)
         let monthName = calendar.monthSymbols[calendar.component(.month, from: date) - 1]
         
-        return "\(monthName) \(day)"
+        return Text("Today, \(monthName) \(day)")
+            .font(.title)
+            .bold()
     }
     
     var body: some View {
-        NavigationView {
-            List {
+        VStack(spacing: 0) {
+            Section(header: HStack {
+                getDate()
+                Spacer()
+            }
+                .padding(.leading)
+                .padding(.top)
+            ) {
                 ZStack {
                     RoundedRectangle(cornerRadius: 20)
                         .fill(.orange)
-                        .border(.red)
-                        .padding(.all, -50)
+                        .padding(10)
+                    
                     
                     VStack {
                         HStack {
@@ -36,29 +44,29 @@ struct HomeStatus: View {
                         }
                         Spacer()
                         
-                        HStack {
-                            Text("You haven't posted today!")
-                                .foregroundColor(.white)
-                                .shadow(color: .gray, radius: 1, x: 0.5, y: 0.5)
-                            
-                            Spacer()
-                            
-                            Text(">")
-                                .foregroundColor(.white)
-                                .shadow(color: .gray, radius: 1, x: 0.5, y: 0.5)
+                        NavigationLink {
+                            HomeView()
+                        } label: {
+                            HStack {
+                                Text("You haven't posted today!")
+                                    .foregroundColor(.white)
+                                    .shadow(color: .gray, radius: 1, x: 0.5, y: 0.5)
+                                
+                                Spacer()
+                                
+                                Text(">")
+                                    .foregroundColor(.white)
+                                    .shadow(color: .gray, radius: 1, x: 0.5, y: 0.5)
+                            }
                         }
                         
                         Spacer()
                     }
-                    .padding(10)
+                    .padding(20)
                 }
                 .frame(height: 150)
             }
-            .padding(0)
-            .navigationTitle("Today, \(getDate())")
         }
-        .frame(height: 300)
-        .padding(0)
     }
 }
 

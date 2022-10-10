@@ -15,7 +15,6 @@ struct HomeView: View {
                 RecentReportList()
             }
         }
-        .ignoresSafeArea(edges: .all)
     }
 }
 
