@@ -8,26 +8,48 @@
 import SwiftUI
 
 
-let color = Color(red: 78.0/255.0, green: 192.0/255.0, blue: 52.0/255.0, opacity: 1.0)
 
 struct ContentView: View {
+    private func getTabTitleName(_ index: Int) -> String {
+        switch index {
+        case 1:
+            return "Home"
+        case 2:
+            return "Reports"
+        case 3:
+            return "Account"
+        default:
+            break
+        }
+        
+        return "Not found"
+    }
+    
+    @State private var selection = 1
+    
     var body: some View {
-        TabView {
-            HomeView()
-                .tabItem {
-                    Label("Home", systemImage: "house")
-                }
-            
-            RecentReportList()
-                .tabItem {
-                    Label("Reports history", systemImage: "list.bullet.rectangle.portrait")
-                }
+        NavigationView {
+            TabView(selection: $selection) {
+                HomeView()
+                    .tabItem {
+                        Label("Home", systemImage: "house")
+                    }
+                    .tag(1)
                 
-            
-            AccountView()
-                .tabItem {
-                    Label("Account", systemImage: "person.crop.circle")
-                }
+                ReportList()
+                    .tabItem {
+                        Label("Reports history", systemImage: "list.bullet.rectangle.portrait")
+                    }
+                    .tag(2)
+                
+                
+                AccountView()
+                    .tabItem {
+                        Label("Account", systemImage: "person.crop.circle")
+                    }
+                    .tag(3)
+            }
+            .navigationTitle(getTabTitleName(selection))
         }
     }
 }
@@ -35,11 +57,5 @@ struct ContentView: View {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
-            .previewDevice(PreviewDevice(rawValue: "iPhone 14 Pro Max"))
-            .previewDisplayName("14 Pro Max")
-            
-        ContentView()
-            .previewDevice(PreviewDevice(rawValue: "iPhone SE"))
-            .previewDisplayName("SE")
     }
 }

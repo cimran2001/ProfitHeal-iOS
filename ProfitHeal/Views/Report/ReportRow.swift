@@ -7,21 +7,21 @@
 
 import SwiftUI
 
-struct RecentReportRow: View {
+struct ReportRow: View {
     var body: some View {
         VStack {
             Spacer()
             Image(systemName: "exclamationmark.circle")
                 .font(.system(size: 40))
             
-            Text("No recent reports")
+            Text("No reports")
             Spacer()
         }
     }
 }
 
-struct RecentReportRow_Previews: PreviewProvider {
+struct ReportRow_Previews: PreviewProvider {
     static var previews: some View {
-        RecentReportRow()
+        ReportRow()
     }
 }

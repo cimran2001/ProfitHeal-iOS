@@ -7,24 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		401FBAE528F586E900DAAD69 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401FBAE428F586E900DAAD69 /* Data.swift */; };
 		405BD33328EC44130057A8B9 /* ProfitHealApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 405BD33228EC44130057A8B9 /* ProfitHealApp.swift */; };
 		405BD33528EC44130057A8B9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 405BD33428EC44130057A8B9 /* ContentView.swift */; };
 		405BD33728EC44140057A8B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 405BD33628EC44140057A8B9 /* Assets.xcassets */; };
 		405BD33A28EC44140057A8B9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 405BD33928EC44140057A8B9 /* Preview Assets.xcassets */; };
 		40ED647828F1AF3B006BF821 /* SymptomRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40ED647728F1AF3B006BF821 /* SymptomRow.swift */; };
 		40ED647B28F1B509006BF821 /* SymptomList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40ED647A28F1B509006BF821 /* SymptomList.swift */; };
-		40ED647D28F1C570006BF821 /* SymptomSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40ED647C28F1C570006BF821 /* SymptomSelection.swift */; };
 		40ED648328F1C9BC006BF821 /* SymptomStates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40ED648228F1C9BC006BF821 /* SymptomStates.swift */; };
 		40ED648528F1C9F6006BF821 /* Report.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40ED648428F1C9F6006BF821 /* Report.swift */; };
 		40ED648828F1CA91006BF821 /* Symptom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40ED648728F1CA91006BF821 /* Symptom.swift */; };
 		40ED648A28F1CD9C006BF821 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40ED648928F1CD9C006BF821 /* AccountView.swift */; };
 		40ED648D28F2CCAF006BF821 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40ED648C28F2CCAF006BF821 /* HomeView.swift */; };
-		40ED649028F4C51A006BF821 /* HomeStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40ED648F28F4C51A006BF821 /* HomeStatus.swift */; };
-		40ED649228F4C66A006BF821 /* RecentReportRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40ED649128F4C66A006BF821 /* RecentReportRow.swift */; };
-		40ED649428F4C899006BF821 /* RecentReportList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40ED649328F4C899006BF821 /* RecentReportList.swift */; };
+		40ED649228F4C66A006BF821 /* ReportRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40ED649128F4C66A006BF821 /* ReportRow.swift */; };
+		40ED649428F4C899006BF821 /* ReportList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40ED649328F4C899006BF821 /* ReportList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		401FBAE428F586E900DAAD69 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 		405BD32F28EC44130057A8B9 /* ProfitHeal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProfitHeal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		405BD33228EC44130057A8B9 /* ProfitHealApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfitHealApp.swift; sourceTree = "<group>"; };
 		405BD33428EC44130057A8B9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,15 +32,13 @@
 		405BD33928EC44140057A8B9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		40ED647728F1AF3B006BF821 /* SymptomRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymptomRow.swift; sourceTree = "<group>"; };
 		40ED647A28F1B509006BF821 /* SymptomList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymptomList.swift; sourceTree = "<group>"; };
-		40ED647C28F1C570006BF821 /* SymptomSelection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymptomSelection.swift; sourceTree = "<group>"; };
 		40ED648228F1C9BC006BF821 /* SymptomStates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymptomStates.swift; sourceTree = "<group>"; };
 		40ED648428F1C9F6006BF821 /* Report.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Report.swift; sourceTree = "<group>"; };
 		40ED648728F1CA91006BF821 /* Symptom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Symptom.swift; sourceTree = "<group>"; };
 		40ED648928F1CD9C006BF821 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
 		40ED648C28F2CCAF006BF821 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
-		40ED648F28F4C51A006BF821 /* HomeStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeStatus.swift; sourceTree = "<group>"; };
-		40ED649128F4C66A006BF821 /* RecentReportRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentReportRow.swift; sourceTree = "<group>"; };
-		40ED649328F4C899006BF821 /* RecentReportList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentReportList.swift; sourceTree = "<group>"; };
+		40ED649128F4C66A006BF821 /* ReportRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportRow.swift; sourceTree = "<group>"; };
+		40ED649328F4C899006BF821 /* ReportList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +52,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		401FBAE328F586DD00DAAD69 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				401FBAE428F586E900DAAD69 /* Data.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
 		405BD32628EC44130057A8B9 = {
 			isa = PBXGroup;
 			children = (
@@ -73,9 +79,10 @@
 		405BD33128EC44130057A8B9 /* ProfitHeal */ = {
 			isa = PBXGroup;
 			children = (
+				405BD33228EC44130057A8B9 /* ProfitHealApp.swift */,
 				40ED648128F1C9A3006BF821 /* Models */,
 				40ED647628F1AF23006BF821 /* Views */,
-				405BD33228EC44130057A8B9 /* ProfitHealApp.swift */,
+				401FBAE328F586DD00DAAD69 /* Data */,
 				405BD33628EC44140057A8B9 /* Assets.xcassets */,
 				405BD33828EC44140057A8B9 /* Preview Content */,
 			);
@@ -95,20 +102,19 @@
 			children = (
 				405BD33428EC44130057A8B9 /* ContentView.swift */,
 				40ED648E28F4C496006BF821 /* Home */,
+				40ED647928F1B3BA006BF821 /* Report */,
 				40ED648B28F1CF1D006BF821 /* Account */,
-				40ED647928F1B3BA006BF821 /* Symptoms */,
 			);
 			path = Views;
 			sourceTree = "<group>";
 		};
-		40ED647928F1B3BA006BF821 /* Symptoms */ = {
+		40ED647928F1B3BA006BF821 /* Report */ = {
 			isa = PBXGroup;
 			children = (
-				40ED647728F1AF3B006BF821 /* SymptomRow.swift */,
-				40ED647A28F1B509006BF821 /* SymptomList.swift */,
-				40ED647C28F1C570006BF821 /* SymptomSelection.swift */,
+				40ED649128F4C66A006BF821 /* ReportRow.swift */,
+				40ED649328F4C899006BF821 /* ReportList.swift */,
 			);
-			path = Symptoms;
+			path = Report;
 			sourceTree = "<group>";
 		};
 		40ED648128F1C9A3006BF821 /* Models */ = {
@@ -133,9 +139,8 @@
 			isa = PBXGroup;
 			children = (
 				40ED648C28F2CCAF006BF821 /* HomeView.swift */,
-				40ED648F28F4C51A006BF821 /* HomeStatus.swift */,
-				40ED649128F4C66A006BF821 /* RecentReportRow.swift */,
-				40ED649328F4C899006BF821 /* RecentReportList.swift */,
+				40ED647728F1AF3B006BF821 /* SymptomRow.swift */,
+				40ED647A28F1B509006BF821 /* SymptomList.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -210,18 +215,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				40ED649428F4C899006BF821 /* RecentReportList.swift in Sources */,
+				40ED649428F4C899006BF821 /* ReportList.swift in Sources */,
 				40ED647828F1AF3B006BF821 /* SymptomRow.swift in Sources */,
 				40ED648828F1CA91006BF821 /* Symptom.swift in Sources */,
 				40ED648328F1C9BC006BF821 /* SymptomStates.swift in Sources */,
 				40ED648528F1C9F6006BF821 /* Report.swift in Sources */,
 				40ED647B28F1B509006BF821 /* SymptomList.swift in Sources */,
-				40ED649228F4C66A006BF821 /* RecentReportRow.swift in Sources */,
+				401FBAE528F586E900DAAD69 /* Data.swift in Sources */,
+				40ED649228F4C66A006BF821 /* ReportRow.swift in Sources */,
 				405BD33528EC44130057A8B9 /* ContentView.swift in Sources */,
-				40ED649028F4C51A006BF821 /* HomeStatus.swift in Sources */,
 				40ED648D28F2CCAF006BF821 /* HomeView.swift in Sources */,
 				40ED648A28F1CD9C006BF821 /* AccountView.swift in Sources */,
-				40ED647D28F1C570006BF821 /* SymptomSelection.swift in Sources */,
 				405BD33328EC44130057A8B9 /* ProfitHealApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -279,7 +283,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -333,7 +337,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -359,6 +363,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -366,7 +371,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.1;
+				MARKETING_VERSION = 0.1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = cimran2001.ProfitHeal;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -391,6 +396,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -398,7 +404,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.1;
+				MARKETING_VERSION = 0.1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = cimran2001.ProfitHeal;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;

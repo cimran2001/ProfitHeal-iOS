@@ -16,17 +16,35 @@ struct AccountView: View {
     
     var body: some View {
         if !authenticated {
-            VStack {
-                TextField("Username", text: $username)
+            VStack(alignment: .leading) {
+                Text("Username/Email")
+                    .font(.callout)
+                    .bold()
+                TextField("", text: $username)
                     .padding()
                     .background(lightGreyColor)
                     .cornerRadius(5.0)
                 
-                TextField("Password", text: $password)
+                Text("Password")
+                    .font(.callout)
+                    .bold()
+                SecureField("", text: $password)
                     .padding()
                     .background(lightGreyColor)
                     .cornerRadius(5.0)
-            }
+                
+                Button(action: {}) {
+                    HStack(alignment: .center) {
+                        Spacer()
+                        Label("Sign in", systemImage: "key")
+                        Spacer()
+                    }
+                }
+                .padding()
+                .background(Color(UIColor(lightGreyColor)))
+                .cornerRadius(5.0)
+                .padding(.top)
+            }.padding()
         }
     }
 }

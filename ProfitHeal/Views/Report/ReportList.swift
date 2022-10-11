@@ -7,27 +7,27 @@
 
 import SwiftUI
 
-struct RecentReportList: View {
+struct ReportList: View {
     private var listHeader: Text {
-        Text("Recent reports")
+        Text("Recent")
             .font(.title)
-            .bold()
     }
     
     var body: some View {
         VStack(spacing: 0) {
             Section(header: HStack {
                 listHeader
+
                 Spacer()
             }.padding(.leading).padding(.top)) {
-                RecentReportRow()
+                ReportRow()
             }
         }
     }
 }
 
-struct RecentReportList_Previews: PreviewProvider {
+struct ReportList_Previews: PreviewProvider {
     static var previews: some View {
-        RecentReportList()
+        ReportList()
     }
 }
