@@ -7,7 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		401FBAE528F586E900DAAD69 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401FBAE428F586E900DAAD69 /* Data.swift */; };
+		401FBAE728F5E5E500DAAD69 /* SymptomCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401FBAE628F5E5E500DAAD69 /* SymptomCategory.swift */; };
+		401FBAE928F5E77E00DAAD69 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401FBAE828F5E77E00DAAD69 /* User.swift */; };
+		401FBAEB28F5E92D00DAAD69 /* Role.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401FBAEA28F5E92D00DAAD69 /* Role.swift */; };
+		401FBAED28F60F5800DAAD69 /* LoginCredentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401FBAEC28F60F5800DAAD69 /* LoginCredentials.swift */; };
+		401FBAF228F6111D00DAAD69 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401FBAF128F6111D00DAAD69 /* Data.swift */; };
+		401FBAF528F6129E00DAAD69 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401FBAF428F6129E00DAAD69 /* LoginController.swift */; };
+		401FBAF828F70A7400DAAD69 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401FBAF728F70A7400DAAD69 /* LoginView.swift */; };
+		401FBAFA28F70AC400DAAD69 /* AuthenticatedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401FBAF928F70AC400DAAD69 /* AuthenticatedView.swift */; };
+		401FBAFC28F70B4E00DAAD69 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401FBAFB28F70B4E00DAAD69 /* SignUpView.swift */; };
+		401FBAFF28F7128A00DAAD69 /* InputField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401FBAFE28F7128A00DAAD69 /* InputField.swift */; };
+		401FBB0128F719B000DAAD69 /* SecureInputField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401FBB0028F719B000DAAD69 /* SecureInputField.swift */; };
+		401FBB0328FE8E4D00DAAD69 /* SignUpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401FBB0228FE8E4D00DAAD69 /* SignUpController.swift */; };
 		405BD33328EC44130057A8B9 /* ProfitHealApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 405BD33228EC44130057A8B9 /* ProfitHealApp.swift */; };
 		405BD33528EC44130057A8B9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 405BD33428EC44130057A8B9 /* ContentView.swift */; };
 		405BD33728EC44140057A8B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 405BD33628EC44140057A8B9 /* Assets.xcassets */; };
@@ -24,7 +35,19 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		401FBAE428F586E900DAAD69 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		401FBAE628F5E5E500DAAD69 /* SymptomCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymptomCategory.swift; sourceTree = "<group>"; };
+		401FBAE828F5E77E00DAAD69 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		401FBAEA28F5E92D00DAAD69 /* Role.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Role.swift; sourceTree = "<group>"; };
+		401FBAEC28F60F5800DAAD69 /* LoginCredentials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginCredentials.swift; sourceTree = "<group>"; };
+		401FBAF128F6111D00DAAD69 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		401FBAF428F6129E00DAAD69 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		401FBAF628F61A5E00DAAD69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		401FBAF728F70A7400DAAD69 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		401FBAF928F70AC400DAAD69 /* AuthenticatedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticatedView.swift; sourceTree = "<group>"; };
+		401FBAFB28F70B4E00DAAD69 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		401FBAFE28F7128A00DAAD69 /* InputField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputField.swift; sourceTree = "<group>"; };
+		401FBB0028F719B000DAAD69 /* SecureInputField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureInputField.swift; sourceTree = "<group>"; };
+		401FBB0228FE8E4D00DAAD69 /* SignUpController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpController.swift; sourceTree = "<group>"; };
 		405BD32F28EC44130057A8B9 /* ProfitHeal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProfitHeal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		405BD33228EC44130057A8B9 /* ProfitHealApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfitHealApp.swift; sourceTree = "<group>"; };
 		405BD33428EC44130057A8B9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -52,12 +75,51 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		401FBAE328F586DD00DAAD69 /* Data */ = {
+		401FBAEE28F60FF000DAAD69 /* Report */ = {
 			isa = PBXGroup;
 			children = (
-				401FBAE428F586E900DAAD69 /* Data.swift */,
+				40ED648228F1C9BC006BF821 /* SymptomStates.swift */,
+				40ED648428F1C9F6006BF821 /* Report.swift */,
+				40ED648728F1CA91006BF821 /* Symptom.swift */,
+				401FBAE628F5E5E500DAAD69 /* SymptomCategory.swift */,
+			);
+			path = Report;
+			sourceTree = "<group>";
+		};
+		401FBAEF28F6104B00DAAD69 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				401FBAE828F5E77E00DAAD69 /* User.swift */,
+				401FBAEA28F5E92D00DAAD69 /* Role.swift */,
+				401FBAEC28F60F5800DAAD69 /* LoginCredentials.swift */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		401FBAF028F6111400DAAD69 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				401FBAF128F6111D00DAAD69 /* Data.swift */,
 			);
 			path = Data;
+			sourceTree = "<group>";
+		};
+		401FBAF328F6129100DAAD69 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				401FBAF428F6129E00DAAD69 /* LoginController.swift */,
+				401FBB0228FE8E4D00DAAD69 /* SignUpController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		401FBAFD28F7128100DAAD69 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				401FBAFE28F7128A00DAAD69 /* InputField.swift */,
+				401FBB0028F719B000DAAD69 /* SecureInputField.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 		405BD32628EC44130057A8B9 = {
@@ -79,10 +141,12 @@
 		405BD33128EC44130057A8B9 /* ProfitHeal */ = {
 			isa = PBXGroup;
 			children = (
+				401FBAF628F61A5E00DAAD69 /* Info.plist */,
 				405BD33228EC44130057A8B9 /* ProfitHealApp.swift */,
+				401FBAF028F6111400DAAD69 /* Data */,
+				401FBAF328F6129100DAAD69 /* Controllers */,
 				40ED648128F1C9A3006BF821 /* Models */,
 				40ED647628F1AF23006BF821 /* Views */,
-				401FBAE328F586DD00DAAD69 /* Data */,
 				405BD33628EC44140057A8B9 /* Assets.xcassets */,
 				405BD33828EC44140057A8B9 /* Preview Content */,
 			);
@@ -101,6 +165,7 @@
 			isa = PBXGroup;
 			children = (
 				405BD33428EC44130057A8B9 /* ContentView.swift */,
+				401FBAFD28F7128100DAAD69 /* Helpers */,
 				40ED648E28F4C496006BF821 /* Home */,
 				40ED647928F1B3BA006BF821 /* Report */,
 				40ED648B28F1CF1D006BF821 /* Account */,
@@ -120,9 +185,8 @@
 		40ED648128F1C9A3006BF821 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				40ED648228F1C9BC006BF821 /* SymptomStates.swift */,
-				40ED648428F1C9F6006BF821 /* Report.swift */,
-				40ED648728F1CA91006BF821 /* Symptom.swift */,
+				401FBAEF28F6104B00DAAD69 /* User */,
+				401FBAEE28F60FF000DAAD69 /* Report */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -131,6 +195,9 @@
 			isa = PBXGroup;
 			children = (
 				40ED648928F1CD9C006BF821 /* AccountView.swift */,
+				401FBAF728F70A7400DAAD69 /* LoginView.swift */,
+				401FBAF928F70AC400DAAD69 /* AuthenticatedView.swift */,
+				401FBAFB28F70B4E00DAAD69 /* SignUpView.swift */,
 			);
 			path = Account;
 			sourceTree = "<group>";
@@ -216,17 +283,28 @@
 			buildActionMask = 2147483647;
 			files = (
 				40ED649428F4C899006BF821 /* ReportList.swift in Sources */,
+				401FBAFA28F70AC400DAAD69 /* AuthenticatedView.swift in Sources */,
 				40ED647828F1AF3B006BF821 /* SymptomRow.swift in Sources */,
 				40ED648828F1CA91006BF821 /* Symptom.swift in Sources */,
 				40ED648328F1C9BC006BF821 /* SymptomStates.swift in Sources */,
 				40ED648528F1C9F6006BF821 /* Report.swift in Sources */,
 				40ED647B28F1B509006BF821 /* SymptomList.swift in Sources */,
-				401FBAE528F586E900DAAD69 /* Data.swift in Sources */,
+				401FBAE928F5E77E00DAAD69 /* User.swift in Sources */,
+				401FBAED28F60F5800DAAD69 /* LoginCredentials.swift in Sources */,
 				40ED649228F4C66A006BF821 /* ReportRow.swift in Sources */,
 				405BD33528EC44130057A8B9 /* ContentView.swift in Sources */,
 				40ED648D28F2CCAF006BF821 /* HomeView.swift in Sources */,
+				401FBB0328FE8E4D00DAAD69 /* SignUpController.swift in Sources */,
+				401FBAF528F6129E00DAAD69 /* LoginController.swift in Sources */,
+				401FBB0128F719B000DAAD69 /* SecureInputField.swift in Sources */,
+				401FBAF828F70A7400DAAD69 /* LoginView.swift in Sources */,
+				401FBAE728F5E5E500DAAD69 /* SymptomCategory.swift in Sources */,
 				40ED648A28F1CD9C006BF821 /* AccountView.swift in Sources */,
+				401FBAFC28F70B4E00DAAD69 /* SignUpView.swift in Sources */,
+				401FBAFF28F7128A00DAAD69 /* InputField.swift in Sources */,
 				405BD33328EC44130057A8B9 /* ProfitHealApp.swift in Sources */,
+				401FBAEB28F5E92D00DAAD69 /* Role.swift in Sources */,
+				401FBAF228F6111D00DAAD69 /* Data.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -352,12 +430,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_ASSET_PATHS = "\"ProfitHeal/Preview Content\"";
 				DEVELOPMENT_TEAM = 3HB4642984;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ProfitHeal/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = ProfitHeal;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -366,14 +446,15 @@
 				INFOPLIST_KEY_UIRequiresFullScreen = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.1.1;
+				MARKETING_VERSION = 0.1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = cimran2001.ProfitHeal;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -385,12 +466,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_ASSET_PATHS = "\"ProfitHeal/Preview Content\"";
 				DEVELOPMENT_TEAM = 3HB4642984;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ProfitHeal/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = ProfitHeal;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -399,14 +482,15 @@
 				INFOPLIST_KEY_UIRequiresFullScreen = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.1.1;
+				MARKETING_VERSION = 0.1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = cimran2001.ProfitHeal;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

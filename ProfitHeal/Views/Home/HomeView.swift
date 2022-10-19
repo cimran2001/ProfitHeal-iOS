@@ -9,6 +9,7 @@ import SwiftUI
 
 struct HomeView: View {
     @State public var sent: Bool = false
+    @ObservedObject var data = Data.instance
     
     private func getDate() -> Text {
         let calendar = Calendar.current
@@ -21,36 +22,41 @@ struct HomeView: View {
     }
     
     var body: some View {
-        VStack(alignment: .leading) {
-            HStack {
-                Text("Hi, Imran!")
-                    .font(.title)
-                Spacer()
-                getDate()
-                    .font(.title)
-            }
-            .padding()
-            
-            NavigationLink {
-                SymptomList(state: $sent)
-            } label: {
-                ZStack {
-                    RoundedRectangle(cornerRadius: 20)
-                        .foregroundColor(.orange)
-                        .frame(height: 100)
-                    
-                    HStack {
-                        Spacer()
-                        Text("Send report")
-                            .foregroundColor(.white)
-                        Spacer()
+        if data.isAuthenticated {
+            VStack(alignment: .leading) {
+                HStack {
+                    Text("Hi, \(data.user.name)!")
+                        .font(.title)
+                    Spacer()
+                    getDate()
+                        .font(.title)
+                }
+                
+                NavigationLink {
+                    SymptomList(state: $sent)
+                } label: {
+                    ZStack {
+                        RoundedRectangle(cornerRadius: 20)
+                            .foregroundColor(.orange)
+                            .frame(height: 100)
+                        
+                        HStack {
+                            Spacer()
+                            Text("Send report")
+                                .foregroundColor(.white)
+                            Spacer()
+                        }
                     }
                 }
+                
+                Spacer()
             }
-            
-            Spacer()
+            .padding()
+        } else {
+            VStack {
+                Text("Log in to your account")
+            }
         }
-        .padding()
     }
 }
 

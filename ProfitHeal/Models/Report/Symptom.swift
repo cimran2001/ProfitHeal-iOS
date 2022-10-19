@@ -8,6 +8,7 @@
 import Foundation
 
 
-struct Symptom {
-    var name: String
+struct Symptom: Codable {
+    var name: String = ""
+    var category: SymptomCategory
 }

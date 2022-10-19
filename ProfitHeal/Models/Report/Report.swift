@@ -8,8 +8,8 @@
 import Foundation
 
 
-struct Report {
-    var symptom: Symptom
+struct Report: Codable {
+    var id: Int
     var date: Date
-    var username: String
+    var symptoms: [Symptom]?
 }

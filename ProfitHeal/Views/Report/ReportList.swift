@@ -8,19 +8,27 @@
 import SwiftUI
 
 struct ReportList: View {
+    @ObservedObject var data = Data.instance
+    
     private var listHeader: Text {
         Text("Recent")
             .font(.title)
     }
     
     var body: some View {
-        VStack(spacing: 0) {
-            Section(header: HStack {
-                listHeader
+        if data.isAuthenticated {
+            VStack(spacing: 0) {
+                Section(header: HStack {
+                    listHeader
 
-                Spacer()
-            }.padding(.leading).padding(.top)) {
-                ReportRow()
+                    Spacer()
+                }.padding(.leading).padding(.top)) {
+                    ReportRow()
+                }
+            }
+        } else {
+            VStack {
+                Text("Log in to your account")
             }
         }
     }

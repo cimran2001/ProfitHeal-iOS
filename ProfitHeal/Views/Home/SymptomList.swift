@@ -30,7 +30,7 @@ struct SymptomList: View {
                     state = true
                 } label: {
                     Label("Send", systemImage: "paperplane")
-                        .foregroundColor(.black)
+                        .foregroundColor(Color(uiColor: UIColor(named: "buttonText")!))
                 }
                 
                 Spacer()
@@ -39,6 +39,7 @@ struct SymptomList: View {
         } else {
             VStack {
                 Label("You have already sent a report today!", systemImage: "checkmark.circle")
+                    .foregroundColor(.green)
             }
             .navigationTitle("Report")
         }
